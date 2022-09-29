@@ -17,7 +17,7 @@ console.log('E=mc²')
 console.log('Light speed = 2.998*10⁸m/s')
 const mString = prompt('Enter M(kg): ')
 
-if (mNumber = parseInt(mString)) {
+if ((mNumber = parseInt(mString))) {
   e = mNumber * Math.pow(lightSpeed, 2)
   console.log(`E = ${e}`)
 } else {
